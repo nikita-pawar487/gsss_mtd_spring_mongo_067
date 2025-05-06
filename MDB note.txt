@@ -19,4 +19,12 @@ To move to the next line press "shift + enter"
 --To check the age between the given ages use "db.car_parking.find({ age: {$in: [20, 22, 24]}})"
 --"ls" means list everything
 --"git status" checks whether any changes are taken place
--- nikki
+--"staged files" is used to know thatthe files are known by the user
+--"git add" is used to stage the unstaged file
+--"git add file name" to check one file
+--"git commit -m "file name" commit the notes which we want to push into git
+--"git push origin main" is used to push the notes which are newly created in the file
+
+
+
+--advantage 
