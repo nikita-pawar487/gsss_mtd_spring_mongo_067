@@ -1,0 +1,21 @@
+To move to the next line press "shift + enter"
+--To insert many values use "db.collection_name.insertMany(followed by condition)"
+--To update the data use "db.collection_name.updateOne(followed by condition);"
+--If we use updateMany, many name or anything same is found in them then if we change anything in one all the values in other collection         will also get updated.
+--After updating to check whether it is updated or not use "db.collection_name.find()"
+--To check whether the age is greater or lesser than use "db.collection_name.find({ age: {$gt for greater $lt for lesser than:43or56}})
+--$gte [greater than & equal]
+--$lte [lesser than & equal]
+--$ne[notequal]
+--To get the values between two ages use "db.car_parking.find(
+{$and:
+	[
+    {
+	age: {$gt: 34}},
+    {
+	age: {$lt: 45}}
+]
+})
+--To check the age between the given ages use "db.car_parking.find({ age: {$in: [20, 22, 24]}})"
+--"ls" means list everything
+--"git status" checks whether any changes are taken place
